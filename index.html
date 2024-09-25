@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeadGen Platform</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">LeadGen</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Clients</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="container my-5">
+    <div class="row align-items-center">
+        <!-- Left side (Text and Buttons) -->
+        <div class="col-md-6 text-center text-md-start">
+            <div class="container-left">
+            <h1 class="hero-title">Boost Your Business with a Network of Skilled Lead Generators</h1>
+            <p class="hero-lead">Access Quality Leads to Fuel Your Growth</p>
+            <p class="hero-paragraph">Our platform connects your business with trained lead generators who understand your industry. Get high-quality leads without the hassle of managing an in-house team. Save time, reduce costs, and accelerate your sales pipeline.</p>
+            <div class="d-flex justify-content-center justify-content-md-start gap-2">
+                <a href="#" class="btn btn-primary button__contact">Contact Us</a>
+                <button class="btn btn-link button__quality">Get Quality Leads</button>
+            </div>
+            <p class="powering">Access Quality Leads to Fuel Your Growth</p>
+
+            <!-- Logos for companies -->
+            <div class="mt-4">
+                <img src="img/andamio.png" alt="Company 1" class="img-fluid mx-2" width="100">
+                <img src="img/socious.png" alt="Company 2" class="img-fluid mx-2" width="100">
+                <img src="img/socious.png" alt="Company 3" class="img-fluid mx-2" width="100">
+                <img src="img/nmkr.png" alt="Company 4" class="img-fluid mx-2" width="100">
+            </div>
+        </div>
+        </div>
+
+        <!-- Right side (Image with Circles) -->
+        <div class="col-md-6 text-center">
+            <img src="img/hero-image.png" alt="Lead Generators Image" class="img-fluid">
+        </div>
+    </div>
+</section>
+
+
+<section class="container my-5 clients">
+    <!-- Clients -->
+<h1 class="title">Clients</h1>
+<ul class="nav nav-tabs" id="client-section" role="tablist">
+    <li class="nav-item businesses" role="presentation">
+      <button class="nav-link active" id="businesses-tab" data-bs-toggle="tab" data-bs-target="#businesses-tab-pane" type="button" role="tab" aria-controls="businesses-tab-pane" aria-selected="true">For Businesses</button>
+    </li>
+    <li class="nav-item lead-generator" role="presentation">
+      <button class="nav-link" id="lead-generator-tab" data-bs-toggle="tab" data-bs-target="#lead-generator-tab-pane" type="button" role="tab" aria-controls="lead-generator-tab-pane" aria-selected="false">For Lead Generators</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="businesses-tab-pane" role="tabpanel" aria-labelledby="businesses-tab" tabindex="0">
+        <div class="row align-items-center">
+            <!-- Left side (Text and Buttons) -->
+            <div class="col-md-6 text-center text-md-start">
+                <h2 class="section-title text-md-start">How It Works</h2>
+    
+                <div class="how-it-works-step d-flex">
+                    <div class="number mx-4">1</div>
+                    <div>
+                        <h4>Sign Up</h4>
+                        <p>Tell us about the company and describe your ideal leads.</p>
+                    </div>
+                </div>
+                
+                <div class="how-it-works-step d-flex">
+                    <div class="number mx-4">2</div>
+                    <div>
+                        <h4>Set Your Budget</h4>
+                        <p>Determine your total budget and the fee per approved lead.</p>
+                    </div>
+                </div>
+                
+                <div class="how-it-works-step d-flex">
+                    <div class="number mx-4">3</div>
+                    <div>
+                        <h4>Receive Leads</h4>
+                        <p>Get a steady stream of qualified leads directly to your dashboard.</p>    
+                    </div>
+                </div>
+            
+            </div>
+            <div class="col-md-6 text-center text-md-start">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                            Benefits of Using Our Lead Generation Service
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="benefits-leads-accordion">
+                                <div class="row align-items-center">
+                                    <!-- Left side (Text and Buttons) -->
+                                    <div class="col-md-6 text-center text-md-start">
+                                        <img src="img/lead-targeted.png" alt="">
+                                                <p>Targeted Leads</p>        
+                                    </div>
+                                    <div class="col-md-6 text-center text-md-start">
+                                        <img src="img/expertise-industry.png" alt="">
+                                                  <p>Industry-Specific Expertise</p>      
+                                    </div>
+                                    <div class="col-md-6 text-center text-md-start">
+                                        <img src="img/scaling.png" alt="">
+                                             <p>Flexible Scaling</p>           
+                                    </div>
+                                    <div class="col-md-6 text-center text-md-start">
+                                        <img src="img/solution.png" alt="">
+                                                        <p>Cost-Effective Solution</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                      </div>
+                    </div>
+                  </div>  
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="lead-generator-tab-pane" role="tabpanel" aria-labelledby="lead-generator-tab" tabindex="0">
+        <div class="row align-items-center">
+            <!-- Left side (Text and Buttons) -->
+            <div class="col-md-4 text-center text-md-start">
+                <h2 class="title-lead-generator-tab">Turn Your Network into Income: <strong>Become a Skilled Lead Generator</strong></h2>
+            </div>
+            <div class="col-md-5 text-center text-md-start">
+                <p class="description-lead-generator-tab">"Join our platform to leverage your networking skills, gain valuable experience, and earn money by connecting businesses with potential clients. Our comprehensive training and support system ensures your success in the world of lead generation."</p>
+            </div>
+            <div class="col-md-3 text-center text-md-start">
+                <h2 class="section-title text-md-start"><button class="start-your-lead">Start Your Lead</button></h2>
+            </div>
+        </div>
+<hr>
+        <div class="row align-items-center">
+            <!-- Left side (Text and Buttons) -->
+            <div class="col-md-6 text-center text-md-start">
+        <div class="accordion accordion-flush" id="forLeadGenerator">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                    Learn the art of lead generation and companies lead generation needs
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#forLeadGenerator">
+                <div class="accordion-body">
+                    <div class="learn-art-accordion">
+                        <div class="row align-items-center">
+                            <!-- Left side (Text and Buttons) -->
+                            <h2 class="section-title text-md-start">How It Works</h2>
+    
+                            <div class="how-it-works-step d-flex">
+                                <div class="number mx-4">1</div>
+                                    <p class="flex-1"><strong>Earn per approved lead:</strong> Learn the art of lead generation and companies lead generation needs.</p>
+                            </div>
+                            
+                            <div class="how-it-works-step d-flex">
+                                <div class="number mx-4">2</div>
+                                    <p class="flex-1"><strong>Generate Leads:</strong> Use your skills and network to identify potential leads.</p>
+                            </div>
+                            
+                            <div class="how-it-works-step d-flex">
+                                <div class="number mx-4">3</div>
+                                    <p class="flex-1"><strong>Earn Rewards and build your reputation:</strong> Receive compensation for approved leads.</p>    
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Overview of the Lead Generation Course
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#forLeadGenerator">
+                <div class="accordion-body">
+                    <div class="row align-items-center">
+    
+                            <div class="how-it-works-step d-flex">
+                                <div class="number mx-4">1</div>
+                                    <p class="flex-1"><strong>Learn from Industry Experts: </strong>Our course is designed by seasoned professionals in lead generation and sales.</p>
+                            </div>
+                            
+                            <div class="how-it-works-step d-flex">
+                                <div class="number mx-4">2</div>
+                                    <p class="flex-1"><strong>Practical, Hands-on Training:</strong> Gain real-world experience as you learn.</p>
+                            </div>
+                            
+                            <div class="how-it-works-step d-flex">
+                                <div class="number mx-4">3</div>
+                                    <p class="flex-1"><strong>Flexible Learning:</strong>  Complete the course at your own pace, from anywhere.</p>    
+                            </div>
+                            <div class="how-it-works-step d-flex">
+                                <div class="number mx-4">4</div>
+                                    <p class="flex-1"><strong>Diverse Clientele:</strong> Work with innovative companies across various industries.</p>    
+                            </div>
+
+
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Compensation Model
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#forLeadGenerator">
+                <div class="accordion-body">
+                    <div class="row align-items-center">
+                        <!-- Left side (Text and Buttons) -->
+    
+                        <div class="how-it-works-step d-flex">
+                            <div class="number mx-4">1</div>
+                                <p class="flex-1"><strong>Earn per approved lead:</strong> The compensation amount is set by each client, allowing for varying earning potential across.</p>
+                        </div>
+                        
+                        <div class="how-it-works-step d-flex">
+                            <div class="number mx-4">2</div>
+                                <p class="flex-1"><strong>Increase earnings:</strong> You build your reputation and access higher-value opportunities.</p>
+                        </div>
+                        
+                        <div class="how-it-works-step d-flex">
+                            <div class="number mx-4">3</div>
+                                <p class="flex-1">Work with multiple clients simultaneously, maximizing your earning potential</p>    
+                        </div>
+
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <div class="col-md-6 text-center text-md-start">
+            <p class="subtitle">Skills You’ll Gain</p>
+            <div class="row align-items-center">
+                <!-- Left side (Text and Buttons) -->
+                <div class="col-md-6 text-center text-md-start">
+                    <div class="d-flex"><img src="img/accept-default.png" alt=""> <p>Professional Networking</p></div>
+                    <div class="d-flex"><img src="img/accept-default.png" alt=""> <p>B2B Communication</p></div>
+                    <div class="d-flex"><img src="img/accept-default.png" alt=""> <p>Industry Research and Analysis</p></div>
+                    <div class="d-flex"><img src="img/accept-default.png" alt=""> <p>Sales Prospecting</p></div>
+                </div>
+                <div class="col-md-6 text-center text-md-start">
+                    <div class="d-flex"><img src="img/accept-default.png" alt=""> <p>Client Relationship Management</p></div>
+                    <div class="d-flex"><img src="img/accept-default.png" alt=""> <p>Digital Marketing Fundamentals</p></div>
+                    <div class="d-flex"><img src="img/accept-default.png" alt=""> <p>Data Privacy and Ethical Lead Generation</p></div>
+                </div>
+            </div>
+            <div class="alert-skills">
+                <p>I've turned my passion for networking into a rewarding career. The flexibility and earning potential are unmatched.</p>
+                <p class="legend">Sarah K. Top Lead Generator</p>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- About Us -->
+<section class="container text-center about-us">
+    <h2 class="title">About Us</h2>
+    <p>We are pioneering a decentralized approach to business lead generation, leveraging the power of community and </br>
+    blockchain technology to connect innovative companies with quality leads.</p>
+    <div class="alert-skills">
+        <div class="row align-items-center">
+            <!-- Left side (Text and Buttons) -->
+            <div class="col-md-3 text-center text-md-end">
+                <img src="./img/iso.png" alt="">
+            </div>
+            <div class="col-md-6 text-center">
+                <p>Join us in reshaping the future of business development through <strong>the power of blockchain and community-driven growth!</strong></p>
+            </div>
+            <div class="col-md-3 text-center text-md-start">
+                <button class="button-in">
+                    <img src="./img/linkedin.png" alt="">
+                    /leadgen</button>
+            </div>
+        </div>
+    </div>
+    <div class="row my-5">
+        <!-- Left side (Text and Buttons) -->
+        <div class="col-md-4 text-center text-md-start px-5">
+            <img src="./img/Group 70.png" class="about-img" alt="">
+            <h1 class="about-title">Our Vision</h1>
+            <p>We aim to become the go-to platform for lead generation to serve businesses globally. By leveraging blockchain, we're not just connecting businesses with leads – we're creating a new paradigm of trust, efficiency, and community-driven growth in the business development world.</p>
+        </div>
+        <div class="col-md-4 text-center text-md-start  px-5">
+            <img src="./img/Group 69.png" class="about-img" alt="">
+            <h1 class="about-title">Our Mission</h1>
+            <p>To revolutionize how businesses connect with potential clients, partners, and investors while empowering community members to contribute meaningfully to the growth of innovative projects.</p>
+        </div>
+        <div class="col-md-4 text-center text-md-start  px-5 box">
+            <h1 class="about-title">What We Offer?</h1>
+            <div class="d-flex align-items-start gap-3">
+                <img src="./img/businesses.png"  alt="">
+                <p><strong>For Businesses:</strong> Access a network of skilled lead generators who understand your industry and can provide high-quality, targeted leads.</p>
+            </div>
+            <div class="d-flex align-items-start gap-3">
+                <img src="./img/lead.png" alt="">
+                <p><strong>For Lead Generators:</strong> Opportunities to monetize your networking skills, gain valuable experience, and contribute to the growth of cutting-edge projects.</p>
+            </div>
+        </div>
+    </div>  
+</section>
+
+<section class="container my-5"></section>
+    <!-- Clients -->
+<ul class="nav nav-tabs" id="client-section" role="tablist">
+    <li class="nav-item technology" role="presentation">
+      <button class="nav-link active" id="technology-tab" data-bs-toggle="tab" data-bs-target="#technology-tab-pane" type="button" role="tab" aria-controls="technology-tab-pane" aria-selected="true">Our Technology</button>
+    </li>
+    <li class="nav-item blockChain" role="presentation">
+      <button class="nav-link" id="blockChain-tab" data-bs-toggle="tab" data-bs-target="#blockChain-tab-pane" type="button" role="tab" aria-controls="blockChain-tab-pane" aria-selected="false">Blockchain Integration</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="technology-tab-pane" role="tabpanel" aria-labelledby="businesses-tab" tabindex="0">
+        <div class="row align-items-center">
+            <!-- Left side (Text and Buttons) -->
+            <div class="col-md-6 text-center text-md-start">
+    
+                <div class="how-it-works-step d-flex align-items-center gap-3">
+                    <img src="./img/businesses.png" alt="">                    
+                        <p>Tell us about the company and describe your ideal leads.</p>
+                </div>
+                
+                <div class="how-it-works-step d-flex align-items-center gap-3">
+                    <img src="./img/businesses.png" alt="">                    
+                        <p>Determine your total budget and the fee per approved lead.</p>
+                </div>
+                
+                <div class="how-it-works-step d-flex align-items-center gap-3">
+                    <img src="./img/businesses.png" alt="">                    
+                        <p>Get a steady stream of qualified leads directly to your dashboard.</p>    
+                </div>
+            
+                <div class="how-it-works-step d-flex align-items-center gap-3">
+                    <img src="./img/businesses.png" alt="">                    
+                        <p>Get a steady stream of qualified leads directly to your dashboard.</p>    
+                </div>
+
+                <div class="how-it-works-step d-flex align-items-center gap-3">
+                    <img src="./img/businesses.png" alt="">                    
+                        <p>Get a steady stream of qualified leads directly to your dashboard.</p>    
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-md-start">
+               <img src="./img/Frame 61.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="blockChain-tab-pane" role="tabpanel" aria-labelledby="blockChain-tab" tabindex="0">
+        <div class="row align-items-center">
+            <!-- Left side (Text and Buttons) -->
+      
+            <div class="col-md-6 text-center text-md-start">
+                <h2 class="section-title text-md-start">Our use of blockchain technology brings several key advantages:</h2>
+    
+                <div class="how-it-works-step d-flex align-items-center gap-3">
+                    <img src="./img/businesses.png" alt="">                    
+                        <p>Transparency: All transactions and lead approvals are recorded on the blockchain, ensuring full transparency.</p>
+                </div>
+                
+                <div class="how-it-works-step d-flex align-items-center gap-3">
+                    <img src="./img/businesses.png" alt="">                    
+                        <p>Security: Cryptographic protocols protect user data and financial transactions.</p>
+                </div>
+                
+                <div class="how-it-works-step d-flex align-items-center gap-3">
+                    <img src="./img/businesses.png" alt="">                    
+                        <p>Efficiency: Smart contracts automate payments and reduce administrative overhead.</p>    
+                </div>
+            
+                <div class="how-it-works-step d-flex align-items-center gap-3">
+                    <img src="./img/businesses.png" alt="">                    
+                        <p>Verifiable Credentials: Lead generators' skills and achievements are recorded on-chain, building a trusted reputation system.</p>    
+                </div>
+
+                <div class="how-it-works-step d-flex align-items-center gap-3">
+                    <img src="./img/businesses.png" alt="">                    
+                        <p>Decentralization: Our platform operates without central authority, democratizing the lead generation process.</p>    
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-md-start">
+               <img src="./img/unsplash_VvAcrVa56fc.png" alt="">
+            </div>
+        </div>
+    </div>
+  </div>
+
+</section>
+<!-- Contact Us -->
+<section class="footer py-5">
+    <h2 class="title">Contact Us</h2>
+    <p>Whether you're a business looking to boost your lead generation or an individual interested in becoming a lead </br> generator, we'd love to hear from you.</p>
+    <p>Email: info@leadgenplatform.io</p>
+    <p>LinkedIn: @leadgenplatform</p>
+    <p>X News: @leadgenplatform</p>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
