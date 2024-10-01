@@ -13,14 +13,17 @@
         rel="stylesheet">
 
     <link href="./style.css" rel="stylesheet">
+    <script src="./scripts.js"></script>
 </head>
 
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./img/logo.png" width="200px" alt=""></a>
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.svg" class="logo" alt="">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,7 +31,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto mx-3">
                     <li class="nav-item  mx-3">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item  mx-3">
                         <a class="nav-link" href="#clients">Clients</a>
@@ -48,7 +51,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="container my-5" id="home">
+    <section class="container mb-5" id="home">
         <div class="row align-items-center home-column">
             <!-- Left side (Text and Buttons) -->
             <div class="col-md-6 text-center text-md-start">
@@ -67,10 +70,10 @@
 
                     <!-- Logos for companies -->
                     <div class="mt-4 icons">
-                        <img src="img/andamio.png" alt="Company 1" class="img-fluid mr-2" width="100">
-                        <img src="img/socious.png" alt="Company 2" class="img-fluid mx-2" width="100">
-                        <img src="img/palmyra.png" alt="Company 3" class="img-fluid mx-2" width="100">
-                        <img src="img/nmkr.png" alt="Company 4" class="img-fluid mx-2" width="100">
+                        <img src="img/logo-andamio.png" alt="Company 1" class="img-fluid mr-2" width="100">
+                        <img src="img/logo-socious.svg" alt="Company 2" class="img-fluid mx-2" width="100">
+                        <img src="img/logo-palmyra.svg" alt="Company 3" class="img-fluid mx-2" width="100">
+                        <img src="img/logo-NMKR.svg" alt="Company 4" class="img-fluid mx-2" width="100">
                     </div>
                 </div>
             </div>
@@ -85,7 +88,6 @@
 
     <section class="container mt-5 clients" id="clients">
         <!-- Clients -->
-        <h1 class="title">Clients</h1>
         <ul class="nav nav-tabs" id="client-section" role="tablist">
             <li class="nav-item businesses" role="presentation">
                 <button class="nav-link active" id="businesses-tab" data-bs-toggle="tab"
@@ -148,19 +150,19 @@
                                             <div class="row align-items-center">
                                                 <!-- Left side (Text and Buttons) -->
                                                 <div class="col-6 col-sm-6 text-center text-md-start mb-4">
-                                                    <img src="img/lead-targeted.png" alt="">
+                                                    <img src="img/lead-targeted.svg" alt="">
                                                     <p>Targeted Leads</p>
                                                 </div>
                                                 <div class="col-6 col-sm-6 text-center text-md-start mb-4">
-                                                    <img src="img/expertise-industry.png" alt="">
+                                                    <img src="img/expertise-industry.svg" alt="">
                                                     <p>Industry-Specific Expertise</p>
                                                 </div>
                                                 <div class="col-6 col-sm-6 text-center text-md-start mb-4">
-                                                    <img src="img/scaling.png" alt="">
+                                                    <img src="img/scaling.svg" alt="">
                                                     <p>Flexible Scaling</p>
                                                 </div>
                                                 <div class="col-6 col-sm-6 text-center text-md-start mb-4">
-                                                    <img src="img/solution.png" alt="">
+                                                    <img src="img/solution.svg" alt="">
                                                     <p>Cost-Effective Solution</p>
                                                 </div>
                                             </div>
@@ -180,43 +182,43 @@
                                     data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         <div class="feature-companie-accordion">
-                                            <div class="row align-items-center mb-3">
+                                            <div class="row align-items-center mb-4">
                                                 <!-- Left side (Text and Buttons) -->
                                                 <div class="col-4 col-sm-4 text-center text-md-start">
-                                                    <img src="img/andamio.png" alt="">
+                                                    <img src="img/logo-andamio.png" class="featured-logo" alt="">
                                                 </div>
                                                 <div class="col-8 col-sm-8 text-center text-md-start">
                                                     <p>“Building active learning communities through strategic
-                                                        connections.</p>
+                                                        connections.“</p>
                                                 </div>
                                             </div>
-                                            <div class="row align-items-center mb-3">
+                                            <div class="row align-items-center mb-4">
                                                 <!-- Left side (Text and Buttons) -->
                                                 <div class="col-4 col-sm-4 text-center text-md-start">
-                                                    <img src="img/socious.png" class="featured-logo" alt="">
+                                                    <img src="img/logo-socious.svg" class="featured-logo" alt="">
                                                 </div>
                                                 <div class="col-8 col-sm-8 text-center text-md-start">
-                                                    <p>““Connecting purpose-driven organizations with their ideal
+                                                    <p>“Connecting purpose-driven organizations with their ideal
                                                         audience."</p>
                                                 </div>
                                             </div>
-                                            <div class="row align-items-center mb-3">
+                                            <div class="row align-items-center mb-4">
                                                 <!-- Left side (Text and Buttons) -->
                                                 <div class="col-4 col-sm-4 text-center text-md-start">
-                                                    <img src="img/palmyra.png" class="featured-logo" alt="">
+                                                    <img src="img/logo-palmyra.svg" class="featured-logo" alt="">
                                                 </div>
                                                 <div class="col-8 col-sm-8 text-center text-md-start">
                                                     <p>“Work with multiple clients simultaneously, maximizing your
-                                                        earning potential</p>
+                                                        earning potential.“</p>
                                                 </div>
                                             </div>
-                                            <div class="row align-items-center mb-3">
+                                            <div class="row align-items-center mb-4">
                                                 <!-- Left side (Text and Buttons) -->
                                                 <div class="col-4 col-sm-4 text-center text-md-start">
-                                                    <img src="img/nmkr.png" class="featured-logo" alt="">
+                                                    <img src="img/logo-NMKR.svg" class="featured-logo" alt="">
                                                 </div>
                                                 <div class="col-8 col-sm-8 text-center text-md-start">
-                                                    <p>“"Boosting blockchain adoption through quality lead generation."
+                                                    <p>“Boosting blockchain adoption through quality lead generation."
                                                     </p>
                                                 </div>
                                             </div>
@@ -229,10 +231,118 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="lead-generator-tab-pane" role="tabpanel" aria-labelledby="lead-generator-tab"
+            <div class="tab-pane fade" id="lead-generator-tab-pane" role="tabpanel"
+                aria-labelledby="lead-generator-tab" tabindex="0">
+                <div class="row align-items-start">
+                    <!-- Left side (Text and Buttons) -->
+                    <div class="col-md-6 text-center text-md-start lead-text">
+                        <div class="align-items-center">
+                            <div class="col-md-12 text-center text-md-start">
+                                <h2 class="title-lead-generator-tab">Turn Your Network into Income: <strong>Become a Skilled
+                                        Lead Generator</strong></h2>
+                            </div>
+                            <img class="mt-3" src="./img/skilled-lead-generator.png" alt="" />
+
+                            <div class="col-md-10 text-center text-md-start mt-3">
+                                <p class="description-lead-generator-tab">"Join our platform to leverage your networking skills, gain valuable experience, 
+                                    and earn money by connecting businesses with potential clients."</p>
+                            </div>
+                            <div class="col-md-10 text-center text-md-start">
+                                <h2 class="section-title text-md-start">
+                                    <a class="start-your-lead" href="https://www.andamio.io/">Start Your Lead Generation Journey</a>
+                                </h2>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <div class="accordion accordion-flush" id="accordionFlushExampleLeadsG">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOneLeadsGenerators" aria-expanded="true"
+                                        aria-controls="flush-collapseOneLeadsGenerators">
+                                        <span class="icon"></span> How the Process Works for Lead Generators
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOneLeadsGenerators" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionFlushExampleLeadsG">
+                                    <div class="accordion-body">
+                                        <div class="learn-art-accordion">
+                                            <div class="row align-items-center">
+
+                                                <div class="how-it-works-step d-flex align-items-center">
+                                                    <div class="number mx-4">1</div>
+                                                    <p class="flex-1">Learn the art of lead generation and companies lead generation needs.</p>
+                                                </div>
+
+                                                <div class="how-it-works-step d-flex align-items-center">
+                                                    <div class="number mx-4">2</div>
+                                                    <p class="flex-1">Use your skills and network to identify potential leads.</p>
+                                                </div>
+
+                                                <div class="how-it-works-step d-flex align-items-center">
+                                                    <div class="number mx-4">3</div>
+                                                    <p class="flex-1">Earn Rewards and build your reputation.</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwoLeadsGenerators" aria-expanded="false"
+                                        aria-controls="flush-collapseTwoLeadsGenerators">
+                                        <span class="icon"></span> Compensation Model
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwoLeadsGenerators" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExampleLeadsG">
+                                    <div class="accordion-body">
+                                        <div class="learn-art-accordion">
+                                            <div class="row align-items-center">
+
+                                                <div class="how-it-works-step d-flex">
+                                                    <div class="number mx-4">1</div>
+                                                    <p class="flex-1"><strong>Earn per approved lead:</strong> 
+                                                        The compensation amount is set by each client, 
+                                                        allowing for varying earning potential across.</p>
+                                                </div>
+
+                                                <div class="how-it-works-step d-flex">
+                                                    <div class="number mx-4">2</div>
+                                                    <p class="flex-1"><strong>Increase earnings:</strong> You build your reputation and 
+                                                        access higher-value opportunities.</p>
+                                                </div>
+
+                                                <div class="how-it-works-step d-flex">
+                                                    <div class="number mx-4">3</div>
+                                                    <p class="flex-1">Work with multiple clients simultaneously, maximizing your earning potential.</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="alert-skills">
+                            <img src="./img/user-write.png" class="user-write" alt="" />
+
+                            <p class="mb-0 mt-3">I've turned my passion for networking into a rewarding career. The flexibility and
+                                earning potential are unmatched.</p>
+                            <p class="legend">Sarah K. Top Lead Generator</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--div class="tab-pane fade" id="lead-generator-tab-pane" role="tabpanel" aria-labelledby="lead-generator-tab"
                 tabindex="0">
                 <div class="row align-items-center">
-                    <!-- Left side (Text and Buttons) -->
                     <div class="col-md-4 text-center text-md-start">
                         <h2 class="title-lead-generator-tab">Turn Your Network into Income: <strong>Become a Skilled
                                 Lead Generator</strong></h2>
@@ -251,7 +361,6 @@
                 </div>
                 <hr>
                 <div class="row align-items-center">
-                    <!-- Left side (Text and Buttons) -->
                     <div class="col-md-6 text-center text-md-start">
                         <div class="accordion accordion-flush" id="forLeadGenerator">
                             <div class="accordion-item">
@@ -268,7 +377,6 @@
                                     <div class="accordion-body">
                                         <div class="learn-art-accordion">
                                             <div class="row align-items-center">
-                                                <!-- Left side (Text and Buttons) -->
                                                 <h2 class="section-title text-md-start">How It Works</h2>
 
                                                 <div class="how-it-works-step d-flex">
@@ -349,7 +457,6 @@
                                     data-bs-parent="#forLeadGenerator">
                                     <div class="accordion-body">
                                         <div class="row align-items-center">
-                                            <!-- Left side (Text and Buttons) -->
 
                                             <div class="how-it-works-step d-flex">
                                                 <div class="number mx-4">1</div>
@@ -379,7 +486,6 @@
                     <div class="col-md-6 text-center text-md-start">
                         <p class="subtitle">Skills You’ll Gain</p>
                         <div class="row align-items-center">
-                            <!-- Left side (Text and Buttons) -->
                             <div class="col-md-6 text-center text-md-start checks">
                                 <div class="d-flex"><img src="img/accept-default.png" alt="">
                                     <p>Professional Networking</p>
@@ -417,14 +523,14 @@
 
                 </div>
 
-            </div>
+            </div-->
         </div>
 
     </section>
 
     <!-- About Us -->
     <section class="container text-center about-us" id="aboutUs">
-        <h2 class="title mb-3">About Us</h2>
+        <h2 class="title mb-4">About Us</h2>
         <p>We are pioneering a decentralized approach to business lead generation, leveraging the power of community and
             </br>
             blockchain technology to connect innovative companies with quality leads.</p>
@@ -437,7 +543,7 @@
                 <div class="col-md-2 text-center text-md-end about-arrow">
                     <img src="./img/iso.png" alt="">
                 </div>
-                <div class="col-md-7 text-start">
+                <div class="col-md-7 text-start join-us-ln">
                     <p>Join us in reshaping the future of business development through <strong>the power of blockchain
                             and community-driven growth!</strong></p>
                 </div>
@@ -450,7 +556,7 @@
         </div>
         <div class="row my-5">
             <!-- Left side (Text and Buttons) -->
-            <div class="col-md-4 text-center text-md-start px-5 text-sm-start">
+            <div class="col-md-4 text-center text-md-start px-5 text-sm-start border-left">
                 <img src="./img/Group 70.png" class="about-img" alt="">
                 <h1 class="about-title">Our Vision</h1>
                 <p class="content-about">We aim to become the go-to platform for lead generation to serve businesses
@@ -458,14 +564,14 @@
                     blockchain, we're not just connecting businesses with leads – we're creating a new paradigm of
                     trust, efficiency, and community-driven growth in the business development world.</p>
             </div>
-            <div class="col-md-4 text-center text-md-start  px-5">
+            <div class="col-md-4 text-center text-md-start px-5 border-left">
                 <img src="./img/Group 69.png" class="about-img" alt="">
                 <h1 class="about-title">Our Mission</h1>
                 <p class="content-about">To revolutionize how businesses connect with potential clients, partners, and
                     investors while
                     empowering community members to contribute meaningfully to the growth of innovative projects.</p>
             </div>
-            <div class="col-md-4 text-center text-md-start  px-5 box">
+            <div class="col-md-4 text-center text-md-start px-5 box">
                 <h1 class="about-title">What We Offer?</h1>
                 <div class="d-flex align-items-start gap-3">
                     <img src="./img/businesses.png" alt="">
@@ -483,7 +589,7 @@
         </div>
     </section>
 
-    <section class="container my-5">
+    <section class="container my-5 technology">
         <!-- Clients -->
         <ul class="nav nav-tabs" id="client-section" role="tablist">
             <li class="nav-item technology" role="presentation">
@@ -530,7 +636,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 text-center text-md-start">
-                        <img class="technology-img" src="./img/Frame 61.png" alt="">
+                        <img class="technology-img" src="./img/Frame 61.png" width="100%" alt="">
                     </div>
                 </div>
             </div>
@@ -544,35 +650,35 @@
                             advantages:</h3>
 
                         <div class="how-it-works-step d-flex align-items-center gap-3">
-                            <img src="./img/public.png" alt="">
-                            <p>Transparency: All transactions and lead approvals are recorded on the blockchain,
+                            <img src="./img/public.svg" alt="">
+                            <p><strong>Transparency:</strong> All transactions and lead approvals are recorded on the blockchain,
                                 ensuring full transparency.</p>
                         </div>
 
                         <div class="how-it-works-step d-flex align-items-center gap-3">
-                            <img src="./img/secure.png" alt="">
-                            <p>Security: Cryptographic protocols protect user data and financial transactions.</p>
+                            <img src="./img/secure.svg" alt="">
+                            <p><strong>Security:</strong> Cryptographic protocols protect user data and financial transactions.</p>
                         </div>
 
                         <div class="how-it-works-step d-flex align-items-center gap-3">
-                            <img src="./img/alert.png" alt="">
-                            <p>Efficiency: Smart contracts automate payments and reduce administrative overhead.</p>
+                            <img src="./img/alert.svg" alt="">
+                            <p><strong>Efficiency:</strong> Smart contracts automate payments and reduce administrative overhead.</p>
                         </div>
 
                         <div class="how-it-works-step d-flex align-items-center gap-3">
-                            <img src="./img/access.png" alt="">
-                            <p>Verifiable Credentials: Lead generators' skills and achievements are recorded on-chain,
+                            <img src="./img/access.svg" alt="">
+                            <p><strong>Verifiable Credentials:</strong> Lead generators' skills and achievements are recorded on-chain,
                                 building a trusted reputation system.</p>
                         </div>
 
                         <div class="how-it-works-step d-flex align-items-center gap-3">
-                            <img src="./img/decentralized.png" alt="">
-                            <p>Decentralization: Our platform operates without central authority, democratizing the lead
+                            <img src="./img/decentralized.svg" alt="">
+                            <p><strong>Decentralization:</strong> Our platform operates without central authority, democratizing the lead
                                 generation process.</p>
                         </div>
                     </div>
                     <div class="col-md-6 text-center text-md-start">
-                        <img class="technology-img" src="./img/unsplash_VvAcrVa56fc.png" alt="">
+                        <img class="technology-img" src="./img/unsplash_VvAcrVa56fc.png" width="100%" alt="">
                     </div>
                 </div>
             </div>
@@ -896,8 +1002,8 @@
     <!-- Contact Us -->
     <section class="footer py-5" id="contact">
         <div class="footer-container">
-            <h2 class="title">Contact Us</h2>
-            <p>Whether you're a business looking to boost your lead generation or an individual interested in becoming a
+            <h2 class="title mb-4">Contact Us</h2>
+            <p class="footer-description">Whether you're a business looking to boost your lead generation or an individual interested in becoming a
                 lead </br> generator, we'd love to hear from you.</p>
             <div class="row align-items-start contact-data">
                 <!-- Left side (Text and Buttons) -->
@@ -922,7 +1028,9 @@
                             <p class="footer-title my-0">LinkedIn</p>
                             <p class="footer-legend my-0">/leadgenplatform</p>
                         </div>
-                        <img width="48px" class="mx-3" src="./img/link.png" alt="">
+                        <a href="https://www.linkedin.com/">
+                            <img width="40px" height="40px" class="mx-3" src="./img/link.png" alt="">
+                        </a>
                     </div>
                     <div class="d-flex container-contact">
                         <div>
@@ -933,7 +1041,9 @@
                             <p class="footer-title my-0">X News</p>
                             <p class="footer-legend my-0">@leadgenplatform</p>
                         </div>
-                        <img width="48px" class="mx-3" src="./img/link.png" alt="">
+                        <a href="https://x.com/">
+                        <img width="40px" height="40px" class="mx-3" src="./img/link.png" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
