@@ -4,9 +4,19 @@
 		url("./fonts/neuzeitgro-reg-webfont.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
+	font-family: "neuzeitgrounspecified";
+	src: url("./fonts/neuzeitgro-reg-webfont.woff2") format("woff2"),
+		url("./fonts/neuzeitgro-reg-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
+	font-family: "neuzeit_grotesklight";
+	src: url("./fonts/neuzeitgro-lig-webfont.woff2") format("woff2"),
+		url("./fonts/neuzeitgro-lig-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 	font-family: "neuzeit_grotesklight";
 	src: url("./fonts/neuzeitgro-lig-webfont.woff2") format("woff2"),
 		url("./fonts/neuzeitgro-lig-webfont.woff") format("woff");
