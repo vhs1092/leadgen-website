@@ -26,7 +26,6 @@
 
 body {
 	color: #495057;
-
 	font-family: "Roboto", sans-serif;
 	font-size: 18px;
 	font-style: normal;
@@ -258,15 +257,21 @@ button#blockChain-tab,
 }
 
 .start-your-lead {
-	color: #4b76e2;
+	color: #fff;
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 24px;
+	text-decoration: none;
+	padding: 20px;
+	border-radius: 30px;
+	background-color: #5984ef;
+	display: inline-block; /* Added this line */
+	transition: transform 0.3s ease; /* Added this line for smooth transition */
 }
 
-.start-your-lead a {
-	text-decoration: none;
+.start-your-lead:hover {
+	transform: scale(1.05); /* Scales the element to 105% of its size */
 }
 
 .flex-1 {
