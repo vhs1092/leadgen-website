@@ -245,14 +245,14 @@ button#blockChain-tab,
 
 
 .start-your-lead {
-    color: #4B76E2;
+    color: #495057;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
 }
 
-.start-your-lead a {
+.start-your-lead{
     text-decoration: none;
 }
 
@@ -706,6 +706,7 @@ button#blockChain-tab,
         margin: 0 auto;
         display: block;
         text-align: center;
+        margin-top: 20px;
     }
     .lead-text {
         border-bottom: 1px solid #CED4DA;
@@ -822,5 +823,11 @@ button#blockChain-tab,
 
     .email-container {
         margin-top: 0;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1350px;
     }
 }
