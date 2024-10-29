@@ -558,20 +558,18 @@
 					generation, leveraging the power of community and blockchain
 					technology to connect innovative companies with quality leads.</p
 				>
-				<div class="mt-8 p-6 bg-blue-50 rounded-md relative">
+				<div
+					class="mt-8 p-2 bg-blue-50 rounded-md relative flex flex-col md:flex-row">
 					<img
 						src="./img/dots.png"
 						alt="Decorative Dots"
-						class="absolute left-0 top-0" />
+						class="hidden md:relative h-24 md:inline-flex" />
 					<div class="flex items-center">
-						<div class="flex-shrink-0">
-							<img
-								src="./img/iso.png"
-								alt="ISO Certification"
-								class="h-12 w-auto" />
+						<div class="flex-shrink-0 pl-4">
+							<img src="./img/iso.png" alt="ISO Certification" />
 						</div>
 						<div class="ml-4">
-							<p class="text-gray-700"
+							<p class="text-gray-700 md:text-xl"
 								>Join us in reshaping the future of business development through
 								<strong class="text-blue-600"
 									>the power of blockchain and community-driven growth!</strong
@@ -789,7 +787,236 @@
 			</section>
 
 			<!-- FAQ Section -->
-			<!-- Similar approach can be taken to rewrite the FAQ section with Tailwind CSS -->
+			<section class="container mx-auto px-4 sm:px-6 lg:px-8 py-12" id="faq">
+				<h2 class="text-3xl font-semibold text-gray-900 text-center mb-8"
+					>FAQs</h2
+				>
+
+				<!-- Tabs for FAQ categories -->
+				<div class="flex border-b border-gray-200 mb-8">
+					<button
+						class="py-4 px-6 text-gray-700 font-semibold focus:outline-none border-b-2 border-blue-600"
+						data-faq-tab="clients">
+						For Clients
+					</button>
+					<button
+						class="py-4 px-6 text-gray-700 font-semibold focus:outline-none"
+						data-faq-tab="lead-generators">
+						For Lead Generators
+					</button>
+				</div>
+
+				<!-- FAQ Content for Clients -->
+				<div id="clients" class="faq-content space-y-4">
+					<!-- FAQ Item 1 -->
+					<div class="bg-gray-100 rounded-md shadow">
+						<button
+							class="w-full text-left flex items-center justify-between p-4 font-semibold text-blue-600 focus:outline-none"
+							data-faq="clients-q1">
+							<span
+								>How does your lead generation service differ from traditional
+								methods?</span
+							>
+							<svg
+								class="w-5 h-5 transform rotate-0 transition-transform duration-200"
+								fill="none"
+								stroke="currentColor"
+								viewBox="0 0 24 24">
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M19 9l-7 7-7-7"></path>
+							</svg>
+						</button>
+						<div class="hidden p-4 text-gray-600" id="clients-q1">
+							Our service leverages a decentralized network of skilled lead
+							generators and blockchain technology, offering greater
+							transparency, efficiency, and cost-effectiveness than traditional
+							methods.
+						</div>
+					</div>
+
+					<!-- FAQ Item 2 -->
+					<div class="bg-gray-100 rounded-md shadow">
+						<button
+							class="w-full text-left flex items-center justify-between p-4 font-semibold text-blue-600 focus:outline-none"
+							data-faq="clients-q2">
+							<span>How do you ensure the quality of leads?</span>
+							<svg
+								class="w-5 h-5 transform rotate-0 transition-transform duration-200"
+								fill="none"
+								stroke="currentColor"
+								viewBox="0 0 24 24">
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M19 9l-7 7-7-7"></path>
+							</svg>
+						</button>
+						<div class="hidden p-4 text-gray-600" id="clients-q2">
+							We have a rigorous vetting process for our lead generators,
+							including training and on-chain credentialing. Additionally, you
+							have full control over lead approval, ensuring you only pay for
+							leads that meet your criteria.
+						</div>
+					</div>
+
+					<!-- FAQ Item 3 -->
+					<div class="bg-gray-100 rounded-md shadow">
+						<button
+							class="w-full text-left flex items-center justify-between p-4 font-semibold text-blue-600 focus:outline-none"
+							data-faq="clients-q3">
+							<span>How do I set my budget and lead fee?</span>
+							<svg
+								class="w-5 h-5 transform rotate-0 transition-transform duration-200"
+								fill="none"
+								stroke="currentColor"
+								viewBox="0 0 24 24">
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M19 9l-7 7-7-7"></path>
+							</svg>
+						</button>
+						<div class="hidden p-4 text-gray-600" id="clients-q3">
+							When you sign up, you'll have the option to set your total budget
+							and the fee per approved lead. You can adjust these at any time
+							based on your needs and the results you're seeing.
+						</div>
+					</div>
+
+					<!-- FAQ Item 4 -->
+					<div class="bg-gray-100 rounded-md shadow">
+						<button
+							class="w-full text-left flex items-center justify-between p-4 font-semibold text-blue-600 focus:outline-none"
+							data-faq="clients-q4">
+							<span>What if I'm not satisfied with a lead?</span>
+							<svg
+								class="w-5 h-5 transform rotate-0 transition-transform duration-200"
+								fill="none"
+								stroke="currentColor"
+								viewBox="0 0 24 24">
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M19 9l-7 7-7-7"></path>
+							</svg>
+						</button>
+						<div class="hidden p-4 text-gray-600" id="clients-q4">
+							You only pay for leads you approve. If a lead doesn't meet your
+							criteria, you can simply decline it without any cost to you.
+						</div>
+					</div>
+				</div>
+
+				<!-- FAQ Content for Lead Generators -->
+				<div id="lead-generators" class="faq-content hidden space-y-4">
+					<!-- FAQ Item 1 -->
+					<div class="bg-gray-100 rounded-md shadow">
+						<button
+							class="w-full text-left flex items-center justify-between p-4 font-semibold text-blue-600 focus:outline-none"
+							data-faq="lead-q1">
+							<span>How do I become a lead generator on your platform?</span>
+							<svg
+								class="w-5 h-5 transform rotate-0 transition-transform duration-200"
+								fill="none"
+								stroke="currentColor"
+								viewBox="0 0 24 24">
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M19 9l-7 7-7-7"></path>
+							</svg>
+						</button>
+						<div class="hidden p-4 text-gray-600" id="lead-q1">
+							Start by enrolling in our comprehensive lead generation course.
+							Upon completion, you'll receive on-chain credentials and can begin
+							generating leads for businesses on our platform.
+						</div>
+					</div>
+
+					<!-- FAQ Item 2 -->
+					<div class="bg-gray-100 rounded-md shadow">
+						<button
+							class="w-full text-left flex items-center justify-between p-4 font-semibold text-blue-600 focus:outline-none"
+							data-faq="lead-q2">
+							<span>How much can I earn as a lead generator?</span>
+							<svg
+								class="w-5 h-5 transform rotate-0 transition-transform duration-200"
+								fill="none"
+								stroke="currentColor"
+								viewBox="0 0 24 24">
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M19 9l-7 7-7-7"></path>
+							</svg>
+						</button>
+						<div class="hidden p-4 text-gray-600" id="lead-q2">
+							Earnings vary based on the number and quality of leads you
+							generate, as well as the fees set by businesses. Each approved
+							lead can earn you the fee set by the business, typically ranging
+							from 250-500 ADA.
+						</div>
+					</div>
+
+					<!-- FAQ Item 3 -->
+					<div class="bg-gray-100 rounded-md shadow">
+						<button
+							class="w-full text-left flex items-center justify-between p-4 font-semibold text-blue-600 focus:outline-none"
+							data-faq="lead-q3">
+							<span>Do I need prior experience in sales or marketing?</span>
+							<svg
+								class="w-5 h-5 transform rotate-0 transition-transform duration-200"
+								fill="none"
+								stroke="currentColor"
+								viewBox="0 0 24 24">
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M19 9l-7 7-7-7"></path>
+							</svg>
+						</button>
+						<div class="hidden p-4 text-gray-600" id="lead-q3">
+							While experience can be helpful, it's not required. Our training
+							course will equip you with the necessary skills to become an
+							effective lead generator.
+						</div>
+					</div>
+
+					<!-- FAQ Item 4 -->
+					<div class="bg-gray-100 rounded-md shadow">
+						<button
+							class="w-full text-left flex items-center justify-between p-4 font-semibold text-blue-600 focus:outline-none"
+							data-faq="lead-q4">
+							<span>How do I get paid for my leads?</span>
+							<svg
+								class="w-5 h-5 transform rotate-0 transition-transform duration-200"
+								fill="none"
+								stroke="currentColor"
+								viewBox="0 0 24 24">
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M19 9l-7 7-7-7"></path>
+							</svg>
+						</button>
+						<div class="hidden p-4 text-gray-600" id="lead-q4">
+							Payments are made automatically through smart contracts when a
+							business approves your lead. The agreed-upon fee is transferred
+							directly to your wallet in ADA.
+						</div>
+					</div>
+				</div>
+			</section>
 
 			<!-- Contact Us Section -->
 			<section class="bg-blue-50 py-12" id="contact">
@@ -810,7 +1037,7 @@
 				</div>
 			</section>
 
-			<footer class="bg-gray-800 py-6">
+			<footer class="py-6 copy bg-blue-50 w-full">
 				<div class="container mx-auto px-4 text-center">
 					<p class="text-gray-400"
 						>Copyright © 2024 LeadGen Platform. All rights reserved.</p
@@ -866,6 +1093,42 @@
 
 					targetContent.classList.toggle("hidden");
 					icon.classList.toggle("rotate-180");
+				});
+			});
+
+			document.addEventListener("DOMContentLoaded", function () {
+				// FAQ Tabs
+				const faqTabs = document.querySelectorAll("[data-faq-tab]");
+				const faqContents = document.querySelectorAll(".faq-content");
+
+				faqTabs.forEach((tab) => {
+					tab.addEventListener("click", function () {
+						const targetTab = tab.getAttribute("data-faq-tab");
+
+						faqTabs.forEach((btn) => btn.classList.remove("border-blue-600"));
+						tab.classList.add("border-blue-600");
+
+						faqContents.forEach((content) => {
+							content.id === targetTab
+								? content.classList.remove("hidden")
+								: content.classList.add("hidden");
+						});
+					});
+				});
+
+				// FAQ Accordion
+				const faqButtons = document.querySelectorAll("[data-faq]");
+
+				faqButtons.forEach((button) => {
+					button.addEventListener("click", function () {
+						const targetContent = document.getElementById(
+							button.getAttribute("data-faq")
+						);
+						const icon = button.querySelector("svg");
+
+						targetContent.classList.toggle("hidden");
+						icon.classList.toggle("rotate-180");
+					});
 				});
 			});
 		</script>
