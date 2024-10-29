@@ -24,6 +24,7 @@ body {
     font-weight: 400;
     line-height: 24px;
 }
+
 #home {
     margin-top: 100px;
 }
@@ -32,6 +33,7 @@ body {
     width: 100%;
     padding-left: 30px;
 }
+
 .section-title {
     color: #000;
     font-family: Roboto;
@@ -68,9 +70,11 @@ body {
 .button__quality a {
     text-decoration: none;
 }
+
 .border-left {
-    border-left:1px solid #DEE2E6;
+    border-left: 1px solid #DEE2E6;
 }
+
 .hero-title {
     color: #212529;
     font-family: 'neuzeitgrounspecified';
@@ -115,9 +119,11 @@ body {
     line-height: 36px;
     color: #CED4DA;
 }
+
 .navbar-nav .nav-link.active {
     color: #212529;
 }
+
 .navbar-nav .nav-link {
     color: #A6AFB8;
 }
@@ -207,10 +213,12 @@ button#blockChain-tab,
     padding: 5px;
     width: 125px;
 }
+
 .feature-companie-accordion p {
     padding-bottom: 0;
     margin-bottom: 0;
 }
+
 .title-lead-generator-tab {
     font-size: 24px;
     font-style: normal;
@@ -221,7 +229,8 @@ button#blockChain-tab,
     margin-top: 20px;
     color: #212529;
 }
-.title-lead-generator-tab strong{
+
+.title-lead-generator-tab strong {
     color: #5984EF
 }
 
@@ -238,7 +247,7 @@ button#blockChain-tab,
     padding: 10px;
 }
 
-.learn-art-accordion p{
+.learn-art-accordion p {
     margin: 0;
     padding: 0;
 }
@@ -252,7 +261,7 @@ button#blockChain-tab,
     line-height: 24px;
 }
 
-.start-your-lead{
+.start-your-lead {
     text-decoration: none;
 }
 
@@ -279,6 +288,7 @@ button#blockChain-tab,
     margin-top: 63px;
     position: relative;
 }
+
 .alert-skills.about {
     padding: 32px 64px 32px 64px;
 }
@@ -308,9 +318,10 @@ button#blockChain-tab,
     margin-bottom: 72px;
 }
 
-.about-us .join-us-ln p{
+.about-us .join-us-ln p {
     margin-bottom: 0;
 }
+
 .button-in {
     border-radius: 30px;
     background: #D2DFFF;
@@ -445,12 +456,15 @@ button#blockChain-tab,
     margin-top: 35px;
     cursor: pointer;
 }
+
 .content-about {
     color: #6C757D;
 }
+
 .technology-img {
     border-radius: 12px;
 }
+
 @media (min-width: 1400px) {
 
     .container,
@@ -509,6 +523,7 @@ button#blockChain-tab,
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
 .user-write {
     width: 50px;
     height: 50px;
@@ -539,13 +554,15 @@ button#blockChain-tab,
     padding: 60px 103px;
 }
 
-@media (min-width: 760px) and (max-width: 1024px) { 
+@media (min-width: 760px) and (max-width: 1024px) {
     .tab-tech {
         padding: 40px 60px;
     }
+
     .tab-content {
         padding: 80px 60px;
     }
+
     .feature-companie-accordion .featured-logo {
         width: 100px;
     }
@@ -555,31 +572,38 @@ button#blockChain-tab,
     .feature-companie-accordion p {
         text-align: left;
     }
+
     .feature-companie-accordion .featured-logo {
         width: 100px;
     }
+
     .navbar-toggler {
-        border: none!important;
+        border: none !important;
     }
+
     .navbar-toggler:focus {
-        box-shadow: none!important;
+        box-shadow: none !important;
     }
-    .copy p{
+
+    .copy p {
         width: 100%;
     }
+
     .logo {
         padding-left: 5px;
     }
+
     .contact-button {
         width: 200px;
     }
+
     .border-left {
         border-left: 1px solid #DEE2E6;
         margin-left: 30px !important;
         padding-left: 20px !important;
         margin-bottom: 20px;
         width: 90%;
-        text-align: start!important;
+        text-align: start !important;
     }
 
     .button-in {
@@ -708,6 +732,7 @@ button#blockChain-tab,
         text-align: center;
         margin-top: 20px;
     }
+
     .lead-text {
         border-bottom: 1px solid #CED4DA;
         margin-bottom: 20px;
@@ -730,9 +755,11 @@ button#blockChain-tab,
         padding: 10px;
         font-size: 16px;
     }
+
     .alert-skills.about {
         padding: 10px;
     }
+
     .title,
     .about-title {
         font-size: 20px;
@@ -763,23 +790,28 @@ button#blockChain-tab,
         align-items: flex-start !important;
         margin-bottom: 25px;
     }
+
     .accordion-button .icon {
-        width: initial!important;
+        width: initial !important;
         margin-right: 15px;
         text-align: center;
         display: inline-flex;
     }
+
     .footer-container {
         padding: 0 32px;
     }
+
     .footer-description {
         font-size: 18px;
     }
+
     .technology {
-        margin-bottom: 20px!important;
+        margin-bottom: 20px !important;
     }
+
     #faq {
-        margin-top: 20px!important;
+        margin-top: 20px !important;
     }
 
     #technology-tab-pane .row,
@@ -813,9 +845,11 @@ button#blockChain-tab,
         margin-bottom: 10px;
         padding: 10px;
     }
+
     .container-contact img {
         width: 40px;
     }
+
     .contact-data {
         flex-direction: column-reverse;
         margin-right: 0;
@@ -826,8 +860,42 @@ button#blockChain-tab,
     }
 }
 
-@media (min-width: 1400px) and (max-width: 1500px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1350px;
+@media (min-width: 768px) {
+    .container {
+        max-width: 100% !important;
+        padding: 0 5% 0 5%;
+    }
+}
+
+@media (min-width: 1800px) {
+
+    body {
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
+
+@media (min-width: 2200px) {
+
+    body {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .container-left {
+        max-width: 900px;
+    }
+
+    .hero-paragraph {
+        max-width: 788px;
+    }
+
+    a,
+    .btn {
+        font-size: 22px;
+    }
+
+    .text-start {
+        font-size: 24px;
     }
 }
