@@ -100,8 +100,8 @@
 								alt="LeadGen Platform Logo" />
 						</a>
 					</div>
-					<!-- Navigation Links -->
-					<div class="hidden md:flex space-x-8">
+					<!-- Desktop Navigation Links -->
+					<div class="hidden md:flex items-center space-x-8">
 						<a href="#home" class="text-gray-700 hover:text-blue-600">Home</a>
 						<a href="#clients" class="text-gray-700 hover:text-blue-600"
 							>Clients</a
@@ -113,6 +113,11 @@
 						<a href="#contact" class="text-gray-700 hover:text-blue-600"
 							>Contact Us</a
 						>
+						<a
+							href="https://yl5i9yeub1k.typeform.com/to/KFBZwCRL"
+							class="bg-blue-600 text-white px-4 py-2 h-full flex items-center rounded hover:bg-blue-700">
+							Register
+						</a>
 					</div>
 					<!-- Mobile Menu Button -->
 					<div class="md:hidden">
@@ -136,23 +141,26 @@
 					</div>
 				</div>
 			</div>
-			<!-- Mobile Menu -->
-			<div id="mobile-menu" class="hidden md:hidden">
-				<div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-					<a href="#home" class="block text-gray-700 hover:text-blue-600"
-						>Home</a
-					>
-					<a href="#clients" class="block text-gray-700 hover:text-blue-600"
-						>Clients</a
-					>
-					<a href="#aboutUs" class="block text-gray-700 hover:text-blue-600"
-						>About Us</a
-					>
-					<a href="#faq" class="block text-gray-700 hover:text-blue-600">FAQ</a>
-					<a href="#contact" class="block text-gray-700 hover:text-blue-600"
-						>Contact Us</a
-					>
-				</div>
+			<!-- Mobile Menu (Hidden by default) -->
+			<div
+				id="mobile-menu"
+				class="hidden md:hidden px-4 pt-4 pb-4 space-y-2 bg-white shadow-lg">
+				<a href="#home" class="block text-gray-700 hover:text-blue-600">Home</a>
+				<a href="#clients" class="block text-gray-700 hover:text-blue-600"
+					>Clients</a
+				>
+				<a href="#aboutUs" class="block text-gray-700 hover:text-blue-600"
+					>About Us</a
+				>
+				<a href="#faq" class="block text-gray-700 hover:text-blue-600">FAQ</a>
+				<a href="#contact" class="block text-gray-700 hover:text-blue-600"
+					>Contact Us</a
+				>
+				<a
+					href="https://yl5i9yeub1k.typeform.com/to/KFBZwCRL"
+					class="block text-white bg-blue-600 px-4 py-2 rounded hover:bg-blue-700"
+					>Register</a
+				>
 			</div>
 		</nav>
 
@@ -177,7 +185,7 @@
 						<div class="mt-6 flex flex-col sm:flex-row sm:justify-start gap-4">
 							<a
 								href="mailto:leadgendao@gmail.com"
-								class="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700"
+								class="px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700"
 								>Contact Us</a
 							>
 						</div>
@@ -185,21 +193,31 @@
 							>Powering growth for innovative companies</p
 						>
 						<!-- Logos for companies -->
-						<div class="mt-4 flex items-center space-x-4">
-							<img
-								src="img/logo-andamio.png"
-								alt="Andamio Logo"
-								class="h-4 md:h-6" />
-							<img
-								src="img/logo-socious.svg"
-								alt="Socious Logo"
-								class="h-4 md:h-6" />
-							<img
-								src="img/logo-palmyra.svg"
-								alt="Palmyra Logo"
-								class="h-4 md:h-6" />
-							<img src="img/logo-NMKR.svg" alt="NMKR Logo" class="h-4 md:h-6" />
+						<!-- Responsive logo grid: two columns on small screens, one row on larger screens -->
+						<!-- <div
+							class="mt-4 grid grid-cols-2 gap-4 md:grid-cols-4 lg:flex lg:justify-center lg:space-x-4 w-full mx-auto"> -->
+						<div class="flex justify-center lg:justify-start">
+							<div
+								class="mt-4 grid grid-cols-2 gap-x-8 lg:gap-x-4 gap-y-4 items-center lg:grid-cols-4">
+								<img
+									src="img/logo-andamio.png"
+									alt="Andamio Logo"
+									class="h-auto w-32 lg:w-full object-contain" />
+								<img
+									src="img/logo-socious.svg"
+									alt="Socious Logo"
+									class="h-auto w-32 lg:w-full object-contain" />
+								<img
+									src="img/logo-palmyra.svg"
+									alt="Palmyra Logo"
+									class="h-auto w-32 lg:w-full object-contain" />
+								<img
+									src="img/logo-NMKR.svg"
+									alt="NMKR Logo"
+									class="h-auto w-32 lg:w-full object-contain" />
+							</div>
 						</div>
+						<!-- </div> -->
 					</div>
 					<!-- Right side (Image) -->
 					<div class="md:w-1/2 mt-8 md:mt-0 text-center">
@@ -208,6 +226,23 @@
 							alt="Lead Generators Image"
 							class="w-full h-auto" />
 					</div>
+				</div>
+			</section>
+			<section class="bg-blue-600 text-white p-12">
+				<div class="container mx-auto text-center">
+					<h2 class="text-3xl font-bold mb-4"
+						>Ready to Turn Your Network into Income?</h2
+					>
+					<p class="mb-6 text-lg">
+						Join our platform and start earning as a skilled lead generator.
+						Click below to register and get started!
+					</p>
+					<a
+						href="https://yl5i9yeub1k.typeform.com/to/KFBZwCRL"
+						target="_blank"
+						class="px-8 py-3 bg-white text-blue-600 font-semibold rounded hover:bg-gray-200 transition">
+						Register Now
+					</a>
 				</div>
 			</section>
 
@@ -414,12 +449,18 @@
 									valuable experience, and earn money by connecting businesses
 									with potential clients."</p
 								>
-								<a
-									href="https://www.andamio.io/"
+								<!-- <a
+									href="https://www.andamio.io/course/blg2024"
 									target="_blank"
 									class="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700"
 									>Get Started</a
-								>
+								> -->
+								<a
+									href="https://yl5i9yeub1k.typeform.com/to/KFBZwCRL"
+									target="_blank"
+									class="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700">
+									Register Now
+								</a>
 							</div>
 							<!-- Right Column -->
 							<div class="md:w-1/2 mt-8 md:mt-0">
@@ -627,6 +668,19 @@
 							</div>
 						</div>
 					</div>
+				</div>
+				<div class="mt-8">
+					<h3 class="text-2xl font-semibold text-gray-900">Join Us Today</h3>
+					<p class="mt-4 text-gray-600"
+						>Be a part of the future of decentralized business development and
+						start earning by connecting businesses with clients.</p
+					>
+					<a
+						href="https://yl5i9yeub1k.typeform.com/to/KFBZwCRL"
+						target="_blank"
+						class="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700">
+						Register Now
+					</a>
 				</div>
 			</section>
 
@@ -1021,7 +1075,15 @@
 			<!-- Contact Us Section -->
 			<section class="bg-blue-50 py-12" id="contact">
 				<div class="container mx-auto px-4 text-center">
-					<h2 class="text-3xl font-semibold text-gray-900">Contact Us</h2>
+					<p class="text-gray-700">
+						Ready to join our platform and turn your networking skills into
+						income?
+						<a
+							href="https://yl5i9yeub1k.typeform.com/to/KFBZwCRL"
+							class="text-blue-600 font-semibold hover:underline"
+							>Register Now</a
+						>
+					</p>
 					<p class="mt-4 text-gray-600"
 						>Whether you're a business looking to boost your lead generation or
 						an individual interested in becoming a lead generator, we'd love to
@@ -1030,16 +1092,16 @@
 					<div class="mt-6">
 						<a
 							href="mailto:leadgendao@gmail.com"
-							class="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700"
+							class="px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700"
 							>Contact Us</a
 						>
 					</div>
 				</div>
 			</section>
 
-			<footer class="py-6 copy bg-blue-50 w-full">
+			<footer class="py-6 bg-blue-50 w-full">
 				<div class="container mx-auto px-4 text-center">
-					<p class="text-gray-400"
+					<p class="text-gray-400 mt-4"
 						>Copyright © 2024 LeadGen Platform. All rights reserved.</p
 					>
 				</div>
